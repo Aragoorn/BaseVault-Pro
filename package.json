@@ -1,11 +1,18 @@
 {
   "name": "base-vault-project",
   "version": "1.0.0",
-  "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "hardhat": "^2.22.0"
+  "description": "A secure Vault contract for Base Network with TypeScript unit tests.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "hardhat test"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^5.0.2"
+    "ethers": "^6.13.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "hardhat": "^2.22.0",
+    "typescript": "^5.0.0"
   }
 }
